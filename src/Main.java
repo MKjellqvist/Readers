@@ -27,7 +27,7 @@ public class Main {
 
     private static void showContents(String toString) {
         WebPageFrame webPageFrame = new WebPageFrame(toString);
-        webPageFrame.show();
+        webPageFrame.showFrame();
     }
 
     private static void writeFormatted(String line, int lineNumber) {
