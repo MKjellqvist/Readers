@@ -1,3 +1,5 @@
+import web.WebPageFrame;
+
 import javax.swing.*;
 import java.io.*;
 import java.net.URL;
@@ -24,8 +26,8 @@ public class Main {
     }
 
     private static void showContents(String toString) {
-        JFrame application = new JFrame();
-        application.setVisible(true);
+        WebPageFrame webPageFrame = new WebPageFrame(toString);
+        webPageFrame.show();
     }
 
     private static void writeFormatted(String line, int lineNumber) {
