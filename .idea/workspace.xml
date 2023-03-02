@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39ac1df2-7946-4c35-b32e-e26fb9feec3b" name="Changes" comment="Initial commit. Read the index page from w3.miun.se." />
+    <list default="true" id="39ac1df2-7946-4c35-b32e-e26fb9feec3b" name="Changes" comment="Shows html">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,7 +15,19 @@
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="0cc764fb52218479a0a9e495aeb60188eaf89545" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -43,6 +57,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="web" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -51,16 +70,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677580518171</updated>
-      <workItem from="1677580519368" duration="3647000" />
+      <workItem from="1677580519368" duration="3460000" />
     </task>
-    <task id="LOCAL-00001" summary="Initial commit. Read the index page from w3.miun.se.">
-      <created>1677760342495</created>
+    <task id="LOCAL-00001" summary="Corrected pagesize">
+      <created>1677760507584</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1677760342495</updated>
+      <updated>1677760507584</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Frame creation.">
+      <created>1677761018920</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1677761018920</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Separate class for frame.">
+      <created>1677761442638</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1677761442638</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Fixed show() bug.">
+      <created>1677761602093</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1677761602093</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Shows html">
+      <created>1677762177995</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1677762177995</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -71,14 +118,30 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="GraphicsInterface" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Initial commit. Read the index page from w3.miun.se." />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit. Read the index page from w3.miun.se." />
+    <MESSAGE value="Corrected pagesize" />
+    <MESSAGE value="Frame creation." />
+    <MESSAGE value="Separate class for frame." />
+    <MESSAGE value="Fixed show() bug." />
+    <MESSAGE value="Shows html" />
+    <option name="LAST_COMMIT_MESSAGE" value="Shows html" />
   </component>
 </project>
