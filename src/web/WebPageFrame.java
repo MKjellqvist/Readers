@@ -9,7 +9,7 @@ public class WebPageFrame extends JFrame {
         super(TITLE);
     }
 
-    public void show() {
+    public void showFrame() {
         setVisible(true);
     }
 }
