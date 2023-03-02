@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Main {
     public static final String FILENAME = "hitch1.txt";
-    public static final int PAGESIZE = 25;
+    public static final int PAGESIZE = 24;
     public static void main(String[] args) throws IOException {
         URL w3 = new URL("https://w3.miun.se/");
         final InputStream w3InputStream = w3.openStream();
