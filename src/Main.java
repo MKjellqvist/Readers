@@ -1,3 +1,4 @@
+import javax.swing.*;
 import java.io.*;
 import java.net.URL;
 import java.util.Scanner;
@@ -12,16 +13,19 @@ public class Main {
         BufferedReader buffferedReader = new BufferedReader(reader);
         String line = null;
         int lineCount = 0;
+        StringBuilder pageContents = new StringBuilder();
         while((line = buffferedReader.readLine()) != null){
             lineCount++;
-            writeFormatted(line, lineCount);
-
-            if(lineCount % PAGESIZE == 0){
-                Scanner sc = new Scanner(System.in);
-                sc.next();
-            }
+            pageContents.append(line + "\n");
         }
         reader.close();
+        showContents(pageContents.toString());
+        System.out.println(pageContents);
+    }
+
+    private static void showContents(String toString) {
+        JFrame application = new JFrame();
+        application.setVisible(true);
     }
 
     private static void writeFormatted(String line, int lineNumber) {
