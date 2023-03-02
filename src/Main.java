@@ -3,7 +3,6 @@ import java.net.URL;
 import java.util.Scanner;
 
 public class Main {
-    public static final String FILENAME = "hitch1.txt";
     public static final int PAGESIZE = 25;
     public static void main(String[] args) throws IOException {
         URL w3 = new URL("https://w3.miun.se/");
